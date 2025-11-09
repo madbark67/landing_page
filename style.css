@@ -10,7 +10,10 @@
 
 }
 
-.content_one {}
+.content_one {
+    text-align: center;
+    padding: 50px;
+}
 
 .content_two {}
 
@@ -19,6 +22,9 @@
 
 .footer {
     background-color: #1F2937;
+    padding: 35px;
+    color: white;
+    text-align: center;
 }
 
 .navbar {
@@ -70,4 +76,20 @@ h1 {
     border: none;
     font-weight: 600;
     margin-top: 10px;
+}
+
+.row_images {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 50px 0;
+}
+
+.row_items {
+    max-width: 150px;
+}
+
+.random {
+    border-radius: 10px;
+    border: 2.5px solid #3882F6;
 }
