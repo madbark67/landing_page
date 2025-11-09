@@ -15,7 +15,13 @@
     padding: 50px;
 }
 
-.content_two {}
+.content_two {
+    background-color: #E5E7EB;
+    padding: 100px 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
 .content_three {}
 
@@ -92,4 +98,15 @@ h1 {
 .random {
     border-radius: 10px;
     border: 2.5px solid #3882F6;
+}
+
+#quote {
+font-size: 36px;
+color: #1F2937;
+font-weight: 300;
+font-style: italic;
+}
+
+#person {
+    align-self: flex-end;
 }
