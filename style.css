@@ -23,7 +23,12 @@
     justify-content: center;
 }
 
-.content_three {}
+.content_three {
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 .footer {
@@ -109,4 +114,33 @@ font-style: italic;
 
 #person {
     align-self: flex-end;
+}
+
+.box {
+    background-color: #3882F6;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 35px 70px;
+    width: 950px;
+    color: white;
+    display: flex;
+}
+
+.call {
+    flex: 2;
+}
+
+.call_button {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom_text {
+    font-size: 14px;
+}
+
+.button_two {
+    border: 1.5px solid white;
 }
